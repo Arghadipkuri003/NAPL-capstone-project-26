@@ -1,0 +1,27 @@
+# Binaries
+cpusim.exe
+cpusim
+*.exe
+*.dll
+*.so
+*.dylib
+
+# SQLite database
+simulator.db
+*.db
+
+# Go build cache
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp directory created by build
+{scheduler,store,web}/
